@@ -1,0 +1,94 @@
+.box-intro-info {
+  color: #494949;
+  padding: 0 40px;
+  display: inline-block; }
+  @media screen and (min-width: 768px) {
+    .box-intro-info {
+      display: block;
+      padding: 0; } }
+  .box-intro-info .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "LatoWebBold"; }
+    @media screen and (min-width: 992px) {
+      .box-intro-info .title {
+        font-size: 2em;
+        display: inline-block;
+        width: 100%; } }
+  .box-intro-info .text {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    @media screen and (min-width: 992px) {
+      .box-intro-info .text {
+        border: none;
+        font-size: 1.2em;
+        padding: 30px 100px;
+        line-height: 140%;
+        display: inline-block; } }
+
+.info-featured {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .info-featured {
+      display: inline-block; } }
+  @media screen and (min-width: 992px) {
+    .info-featured {
+      padding: 0 80px; } }
+  .info-featured .item {
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    @media screen and (min-width: 768px) {
+      .info-featured .item {
+        width: 50%; } }
+    @media screen and (min-width: 992px) {
+      .info-featured .item {
+        height: 160px;
+        padding: 20px 15px;
+        border: none; } }
+    .info-featured .item:hover {
+      background: rgba(19, 200, 227, 0.1); }
+    .info-featured .item:last-child {
+      border-bottom: none; }
+    .info-featured .item .image {
+      width: 15%;
+      padding: 10px;
+      margin: 0 auto; }
+      @media screen and (min-width: 768px) {
+        .info-featured .item .image {
+          height: 30px; } }
+      @media screen and (min-width: 992px) {
+        .info-featured .item .image {
+          margin: 0;
+          float: left;
+          width: 8%; } }
+      .info-featured .item .image img {
+        vertical-align: top; }
+    .info-featured .item .box {
+      width: 100%;
+      padding: 10px 0; }
+      @media screen and (min-width: 992px) {
+        .info-featured .item .box {
+          width: 80%;
+          float: left;
+          text-align: left; } }
+      .info-featured .item .box .subtitle {
+        color: #13c8e3;
+        font-family: "LatoWebBold";
+        font-size: 1.2em;
+        padding: 10px 0; }
+        @media screen and (min-width: 992px) {
+          .info-featured .item .box .subtitle {
+            padding-top: 0; } }

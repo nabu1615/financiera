@@ -1,0 +1,65 @@
+.interna .box-intro-info {
+  padding: 30px 0; }
+
+.interna .info-featured {
+  padding: 0;
+  padding-bottom: 30px; }
+
+.header-interna {
+  background-image: url("../images/misc/header-educacion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 390px;
+  position: relative; }
+  .header-interna .container {
+    position: relative; }
+  .header-interna .subtitle {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: "cm_sans_serif_2012medium";
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 3em; }
+
+.stages {
+  background-color: #eceef4;
+  margin-top: 30px; }
+  .stages .title {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.43em;
+    color: #494949;
+    font-family: "LatoWebBold"; }
+  .stages .info {
+    padding: 0 20px;
+    color: #494949;
+    line-height: 110%; }
+  .stages .video {
+    padding: 0 20px 20px 20px; }
+
+.carousel-educacion {
+  padding-top: 7%;
+  display: inline-block; }
+  @media screen and (min-width: 1200px) {
+    .carousel-educacion {
+      padding: 0; } }
+  .carousel-educacion .slide {
+    width: 100%;
+    border: none;
+    font-size: .9em; }
+    .carousel-educacion .slide img {
+      padding: 0 60px;
+      box-sizing: border-box; }
+      @media screen and (min-width: 768px) {
+        .carousel-educacion .slide img {
+          padding: 0 10px; } }
+      @media screen and (min-width: 1200px) {
+        .carousel-educacion .slide img {
+          padding: 0 60px; } }
+    .carousel-educacion .slide .subtitle {
+      font-family: "LatoWebBold"; }
+    .carousel-educacion .slide .subtitle, .carousel-educacion .slide .description {
+      text-align: center; }
