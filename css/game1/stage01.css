@@ -1,0 +1,47 @@
+/* FONTS */
+/* COLORS */
+/* SIZES RESPONSIVE */
+@font-face {
+  font-family: 'chunkfive';
+  src: url("../fonts/chunkfive_ex-webfont.eot");
+  src: url("../fonts/chunkfive_ex-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chunkfive_ex-webfont.woff2") format("woff2"), url("../fonts/chunkfive_ex-webfont.woff") format("woff"), url("../fonts/chunkfive_ex-webfont.ttf") format("truetype"), url("../fonts/chunkfive_ex-webfont.svg#chunkfive_exregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#stage01 {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.main-title {
+  margin: 0 auto 30px auto;
+  text-align: center; }
+  .main-title img {
+    width: 45%; }
+    @media (max-width: 568px) {
+      .main-title img {
+        width: 70%; } }
+
+.start {
+  text-align: center; }
+  .start img {
+    width: 80%; }
+    @media (max-width: 568px) {
+      .start img {
+        width: 85%; } }
+
+.start span {
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 36px 52px;
+  box-shadow: 0px 6px 0px 0px rgba(56, 63, 12, 0.3);
+  transition: background 0.2s ease; }
+  .start span:hover {
+    background: #F6F6F6; }
+  @media (max-width: 768px) {
+    .start span {
+      width: 40%; } }

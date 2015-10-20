@@ -1,0 +1,49 @@
+/* FONTS */
+/* COLORS */
+/* SIZES RESPONSIVE */
+@font-face {
+  font-family: 'chunkfive';
+  src: url("../fonts/chunkfive_ex-webfont.eot");
+  src: url("../fonts/chunkfive_ex-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chunkfive_ex-webfont.woff2") format("woff2"), url("../fonts/chunkfive_ex-webfont.woff") format("woff"), url("../fonts/chunkfive_ex-webfont.ttf") format("truetype"), url("../fonts/chunkfive_ex-webfont.svg#chunkfive_exregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.game-wrap .container {
+  padding: 60px 0; }
+
+.game1 a {
+  text-decoration: none;
+  color: #5B5B5B; }
+
+.question {
+  color: #5B5B5B; }
+
+.startRight {
+  left: 100%;
+  opacity: 0;
+  position: absolute; }
+
+.stage {
+  width: 100%;
+  height: 810px; }
+
+.game-wrapper-financiero {
+  display: block;
+  overflow: hidden;
+  height: 810px !important;
+  width: 960px;
+  position: relative;
+  height: auto;
+  padding-bottom: 45px;
+  background: url("../images/game1/bg.jpg") no-repeat center center;
+  margin: 0 auto;
+  background-size: cover; }
+  @media (max-width: 1199px) {
+    .game-wrapper-financiero {
+      width: 90%; } }
+  @media (max-width: 768px) {
+    .game-wrapper-financiero {
+      height: 1007px !important; } }
+  @media (max-width: 568px) {
+    .game-wrapper-financiero {
+      height: 1131px !important; } }

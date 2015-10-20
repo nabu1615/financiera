@@ -1,0 +1,64 @@
+/* FONTS */
+/* COLORS */
+/* SIZES RESPONSIVE */
+@font-face {
+  font-family: 'chunkfive';
+  src: url("../fonts/chunkfive_ex-webfont.eot");
+  src: url("../fonts/chunkfive_ex-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chunkfive_ex-webfont.woff2") format("woff2"), url("../fonts/chunkfive_ex-webfont.woff") format("woff"), url("../fonts/chunkfive_ex-webfont.ttf") format("truetype"), url("../fonts/chunkfive_ex-webfont.svg#chunkfive_exregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#stage03 {
+  text-align: center; }
+
+.a-jugar h6 {
+  font-size: 60px;
+  font-family: 'chunkfive';
+  color: #fff;
+  text-shadow: 0px 3px rgba(56, 63, 12, 0.7);
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0 0 377px 0;
+  margin-top: -94px; }
+  @media (max-width: 768px) {
+    .a-jugar h6 {
+      font-size: 50px; } }
+  @media (max-width: 568px) {
+    .a-jugar h6 {
+      font-size: 40px;
+      padding: 190px 0 260px 0; } }
+
+.stars-footer {
+  background: rgba(255, 255, 255, 0.5);
+  border-top: 3px solid #fff;
+  position: absolute;
+  width: 100%;
+  bottom: -45px; }
+  @media (max-width: 768px) {
+    .stars-footer {
+      bottom: -242px; } }
+  @media (max-width: 568px) {
+    .stars-footer {
+      bottom: -366px; } }
+  .stars-footer img {
+    width: 50px; }
+    @media (max-width: 991px) {
+      .stars-footer img {
+        width: 30px; } }
+    @media (max-width: 568px) {
+      .stars-footer img {
+        width: 30px; } }
+  .stars-footer .level {
+    text-transform: uppercase;
+    float: right;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin: 10px 10px 0 0; }
+    @media (max-width: 768px) {
+      .stars-footer .level {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        margin: 5px 0; } }
