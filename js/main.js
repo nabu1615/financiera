@@ -29,10 +29,10 @@ $(function(){
 
 
 $(function() {
-    var submenu = $('nav li a');
-    $(submenu).on('click', function(e) {
+    var submenu = $('nav li');
+    $(submenu).hover(function(e) {
         e.preventDefault();
-        $(this).parent().find('.submenu').toggleClass('visible');
+        $(this).find('.submenu').toggleClass('visible');
     });
 });
 
@@ -81,8 +81,6 @@ $(function(){
     autoScaleSlider: true, 
     autoScaleSliderWidth: 960,     
     autoScaleSliderHeight: 750,
-
-    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
     imgWidth: 640,
     imgHeight: 360
 

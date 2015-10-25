@@ -1,0 +1,116 @@
+/* FONTS */
+/* COLORS */
+/* SIZES RESPONSIVE */
+@font-face {
+  font-family: 'bready';
+  src: url("../fonts/bready_alternates_demo-webfont.eot");
+  src: url("../fonts/bready_alternates_demo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bready_alternates_demo-webfont.woff2") format("woff2"), url("../fonts/bready_alternates_demo-webfont.woff") format("woff"), url("../fonts/bready_alternates_demo-webfont.ttf") format("truetype"), url("../fonts/bready_alternates_demo-webfont.svg#chunkfive_exregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#stage003 {
+  position: absolute; }
+
+.hand-l {
+  position: absolute;
+  left: 0; }
+  .hand-l img {
+    width: 350px; }
+    @media (max-width: 991px) {
+      .hand-l img {
+        width: 250px; } }
+
+.left-hands-01 {
+  top: 30px; }
+
+.left-hands-02 {
+  top: 170px; }
+  @media (max-width: 920px) {
+    .left-hands-02 {
+      top: 210px; } }
+
+.left-hands-03 {
+  top: 325px; }
+  @media (max-width: 920px) {
+    .left-hands-03 {
+      top: 388px; } }
+
+.left-hands-04 {
+  top: 480px; }
+  @media (max-width: 920px) {
+    .left-hands-04 {
+      top: 564px; } }
+
+.left-hands-05 {
+  top: 630px; }
+  @media (max-width: 920px) {
+    .left-hands-05 {
+      top: 740px; } }
+
+.right-hands-01 {
+  top: 30px; }
+  @media (max-width: 920px) {
+    .right-hands-01 {
+      top: 110px; } }
+
+.right-hands-02 {
+  top: 170px; }
+  @media (max-width: 920px) {
+    .right-hands-02 {
+      top: 291px; } }
+
+.right-hands-03 {
+  top: 325px; }
+  @media (max-width: 920px) {
+    .right-hands-03 {
+      top: 467px; } }
+
+.right-hands-04 {
+  top: 480px; }
+  @media (max-width: 920px) {
+    .right-hands-04 {
+      top: 645px; } }
+
+.right-hands-05 {
+  top: 640px; }
+  @media (max-width: 920px) {
+    .right-hands-05 {
+      top: 822px; } }
+
+.hand-r {
+  position: absolute;
+  right: 0; }
+  .hand-r img {
+    width: 560px; }
+    @media (max-width: 991px) {
+      .hand-r img {
+        width: 500px !important; } }
+    @media (max-width: 568px) {
+      .hand-r img {
+        width: 470px !important; } }
+  @media (max-width: 568px) {
+    .hand-r {
+      left: 20px; } }
+
+.right-hands {
+  float: right;
+  width: 55%;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+  .right-hands img {
+    width: 550px; }
+
+.stars-conceptos {
+  position: absolute;
+  bottom: 9px;
+  z-index: 1;
+  right: 9px;
+  height: 5px; }
+  @media (max-width: 920px) {
+    .stars-conceptos {
+      bottom: -136px; } }
+  .stars-conceptos img {
+    width: 45px; }
+    @media (max-width: 568px) {
+      .stars-conceptos img {
+        width: 40px; } }

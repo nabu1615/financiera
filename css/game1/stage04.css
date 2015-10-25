@@ -58,7 +58,21 @@
   @media (max-width: 768px) {
     .helpers {
       position: relative; } }
+  .helpers .disable-tool {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    display: none; }
+    .helpers .disable-tool.active {
+      display: block; }
   .helpers span {
+    position: relative;
     display: inline-block;
     border-radius: 50%;
     border: 4px solid #fff;
